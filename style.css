@@ -1,0 +1,53 @@
+/*reset css - usa o * pra tags especificas, mas tem o reset tb*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    height: 100vh; /*vh é o viewport definido no html. aqui to definindo que é pra usar 100% da area visivel-viewport*/
+    background-color: #000000;
+    color: #F6F6F6;
+    box-sizing: border-box; /*box-sizin controla os elementos filho dentro do elemento pai para que nao ultrapasse o limite.
+     ex: imagem dentro do body*/
+}
+.apresentacao{
+    margin:10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo-destaque{
+    color: #22D4FD;
+}
+.apresentacao-conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+.apresentacao-conteudo-titulo{
+font-size: 36px;
+font-family:'Krona One', sans-serif ;
+}
+.apresentacao-conteudo-texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.apresentacao-links{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentcao-links-botao{
+    background-color: #22D4FD;
+    width: 280px;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#000000;
+}
